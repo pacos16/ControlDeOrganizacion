@@ -5,6 +5,7 @@ import android.widget.ListView;
 import com.pacosignes.controldeorganizacion.R;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
     private CountryParser countryParser;
@@ -16,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_banderas);
+        final Toolbar toolbar= findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Banderas");
         lvMain= findViewById(R.id.lvMain);
         countryParser=new CountryParser(this);
         countryParser.parse();

@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".banderas.MainActivity"/>
+        <activity android:name=".alumnos.MainActivity"/>
+        <activity android:name=".alumnos.NotasActivity"/>
     </application>
 
 </manifest>

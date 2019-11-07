@@ -4,10 +4,10 @@
 
     <item
         android:id="@+id/miSaludar"
-        android:icon="@mipmap/ic_launcher"
-        android:title="Saludar"
+        android:icon="@drawable/_vn"
+        android:title="Banderas"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/miDespedir"
-        android:title="Despedir" />
+        android:title="Alumnos" />
 </menu>

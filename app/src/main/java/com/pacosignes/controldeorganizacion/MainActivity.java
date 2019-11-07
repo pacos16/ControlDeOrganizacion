@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case(R.id.miDespedir):
-                Toast.makeText(this,"Adios menu",Toast.LENGTH_LONG).show();
-
+                Intent intent1=new Intent(this,com.pacosignes.controldeorganizacion.alumnos.MainActivity.class);
+                startActivity(intent1);
                 return true;
                 default:
                     return false;
